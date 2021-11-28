@@ -1,5 +1,6 @@
-*{box-sizing: border-box;
-   
+* {
+    box-sizing: border-box;
+
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Oxygen', sans-serif;
-    
+
 }
 
 .container {
@@ -16,15 +17,15 @@ body {
     margin: 180px auto;
     display: flex;
     flex-flow: row nowrap;
-      border-radius: 25px;
-      overflow: hidden;
-      border: 1px solid black;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid black;
 
 
 }
 
 img {
-object-fit: cover;
+    object-fit: cover;
     width: 350px;
     height: 535px;
 }
@@ -33,26 +34,27 @@ object-fit: cover;
     background-color: whitesmoke;
     width: 100%;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
 .emailAddress {
     position: relative;
-    
+
 }
 
-.emailAddress i{
+.emailAddress i {
     position: absolute;
-    color:#559ef2 ;
+    color: #559ef2;
     top: 17px;
     left: 65px;
 }
 
-.emailAddress  input{
-    border:1px solid #cbced1;
+.emailAddress input {
+    border: 1px solid #cbced1;
     height: 30px;
-    width:  80%;
+    width: 80%;
     background-color: whitesmoke;
     border-radius: 20px;
     align-content: center;
@@ -66,15 +68,15 @@ h1{
 
 .password i {
     position: absolute;
-    color:#559ef2 ;
+    color: #559ef2;
     top: 17px;
     left: 65px;
 }
 
 .password input {
-    border:1px solid #cbced1;
+    border: 1px solid #cbced1;
     height: 30px;
-    width:  80%;
+    width: 80%;
     background-color: whitesmoke;
     border-radius: 20px;
     align-content: center;
@@ -82,46 +84,31 @@ h1{
     margin: 10px 50px;
 }
 
-.radio {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: start;
-    position: relative;
-   
+.checkbox {
+    padding: 10px 50px;
+    border: none;
+    color: #4b4d4f;
 }
 
-.radio p {
-    padding-left: 75px;
-}
-.radio input {
-    position: absolute;
-    left: 50px;
-    top: 17px;
-
-}
-
-.botton {
-    display: flex;
-    justify-content: center;
-
-}
-
-.botton a{
+button {
     text-decoration: none;
-    background-color:#2e6dd1 ;
+    background-color: #2e6dd1;
     color: whitesmoke;
     height: 50px;
     width: 80%;
     border-radius: 30px;
     text-align: center;
-    padding-top: 15px;
+
     font-family: 'Oxygen', sans-serif;
+    margin-left: 50px;
+    border: none;
     cursor: pointer;
     transition: 0.5s all ease;
-} 
+}
 
-.botton a:hover {
-background-color: #70b1e6;
+
+button:hover {
+    opacity: 0.6;
 }
 
 .forget {
@@ -129,35 +116,35 @@ background-color: #70b1e6;
     justify-content: flex-end;
     margin-top: 20px;
     padding-right: 50px;
-    
+
 }
 
-.forget a{
+.forget a {
     text-decoration: none;
-    color:#2d85eb ;
+    color: #2d85eb;
 }
 
 .text {
-    text-align:center ;
+    text-align: center;
 }
 
 .loginIcon {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around; 
-   
+    justify-content: space-around;
+
     padding: 15px 30px 0 30px;
 }
 
 .facebook {
     height: 30px;
     width: 90px;
-    background-color:#244263 ;
+    background-color: #244263;
     color: whitesmoke;
-    text-decoration:none ;
-    padding: 5px 0 0 10px ;
+    text-decoration: none;
+    padding: 5px 0 0 10px;
     border-radius: 5px;
-    
+
 }
 
 .google {
@@ -167,8 +154,8 @@ background-color: #70b1e6;
     color: whitesmoke;
     text-decoration: none;
     border-radius: 5px;
-    padding: 5px 0 0 19px ;
-   
+    padding: 5px 0 0 19px;
+
 }
 
 .twitter {
@@ -178,23 +165,23 @@ background-color: #70b1e6;
     color: whitesmoke;
     text-decoration: none;
     border-radius: 5px;
-    padding: 5px 0 0 19px ; 
-   
+    padding: 5px 0 0 19px;
+
 }
 
 .line {
- 
+
     width: 100%;
-   position: relative;
-    
+    position: relative;
+
 }
 
-.line p{
+.line p {
     width: 80%;
-    border-top: 1px solid #cbced1; 
+    border-top: 1px solid #cbced1;
     position: absolute;
-   left: 10%;
-   
+    left: 10%;
+
 }
 
 
@@ -202,9 +189,9 @@ background-color: #70b1e6;
 
 .register {
     display: flex;
-flex-flow: row nowrap;
-justify-content: center;
-padding-top: 20px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .register a {
